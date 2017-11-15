@@ -1,0 +1,36 @@
+@body-color: #eee;
+@container-color: #eee;
+@p-title-a-color: #10f;
+body, html {
+    width: 100%;
+    height: 100%;
+}
+body {
+    background-color: @body-color;
+    > .container {
+        height: 100%;
+        color: #000;
+        background-color: @container-color;
+        position: relative;
+        > .menus {
+            width: 500px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            > .panel-group {
+                > .panel {
+                    > .panel-heading {
+                        > .panel-title {
+                            > a {
+                                display: block;
+                                width: 100%;
+                                color: @p-title-a-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
