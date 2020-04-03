@@ -4,4 +4,4 @@
 
 ...现在写一下 readme
 
-[访问地址](http://www.eiiizong.top/demo/dist/index.html)
+[访问地址](https://eiiizong.github.io/demo/dist/index.html)
